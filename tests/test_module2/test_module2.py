@@ -1,4 +1,4 @@
-from pbutil.module2 import module2
+from pbutils.module2 import module2
 
 
 class TestModule2:
