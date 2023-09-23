@@ -1,2 +1,2 @@
 # pbutils
- MacOS pasteboard CLI utilities
+MacOS pasteboard CLI utilities
