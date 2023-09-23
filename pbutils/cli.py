@@ -1,7 +1,7 @@
 import click
 
-from pbutil import module1
-from pbutil.module2 import module2
+from pbutils import module1
+from pbutils.module2 import module2
 
 
 @click.command()
