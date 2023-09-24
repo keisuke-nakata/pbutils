@@ -1,7 +1,7 @@
 # https://github.com/pallets/click/pull/2210 がマージされるまでのパッチ
 
 import enum
-from typing import Type, Any
+from typing import Any, Type
 
 import click
 

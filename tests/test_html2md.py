@@ -1,5 +1,5 @@
-from pathlib import Path
 import textwrap
+from pathlib import Path
 
 from pbutils import html2md
 
@@ -11,7 +11,8 @@ class TestHtml2Md:
         with open(here / "bytes.html", "rb") as f:
             data = f.read()
         md = html2md.html2md(data)
-        assert md == textwrap.dedent("""
+        # fmt:off
+        expected = textwrap.dedent("""
             Heading 1
             =========
 
@@ -55,3 +56,5 @@ class TestHtml2Md:
 
             indented text
         """).strip()
+        # fmt:on
+        assert md == expected

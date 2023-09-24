@@ -5,9 +5,9 @@ import sys
 import click
 from loguru import logger
 
-from pbutils.pb2html import pb2html
-from pbutils.html2md import html2md
 from pbutils.enum_choice import EnumChoice
+from pbutils.html2md import html2md
+from pbutils.pb2html import pb2html
 
 
 @enum.unique
