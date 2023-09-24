@@ -8,6 +8,8 @@ beautifulsoup4==4.12.2
     # via markdownify
 click==8.1.7
     # via -r requirements.in
+loguru==0.7.2
+    # via -r requirements.in
 markdownify==0.11.6
     # via -r requirements.in
 pyobjc==9.2
