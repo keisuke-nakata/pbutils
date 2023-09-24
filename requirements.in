@@ -1,3 +1,4 @@
 click>=8.1
+loguru>=0.7
 pyobjc>=9.2
 markdownify>=0.11.6
