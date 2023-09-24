@@ -6,6 +6,6 @@ MacOS pasteboard CLI utilities
 ```bash
 pip install pbutils
 
-# (google docs のドキュメントがペーストボードの一番上にある状態で)
+# (google docs のドキュメントの内容をペーストボードの一番上にコピーしてる状態で)
 pbutils  # will print markdownified text
 ```
