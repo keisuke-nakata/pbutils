@@ -33,7 +33,7 @@ jobs:
     - name: Build package
       run: python -m build
     - name: Store the binary wheel
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: wheel
         path: dist/*.whl
@@ -50,7 +50,7 @@ jobs:
       id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
     steps:
     - name: Download the binary wheel
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v3
       with:
         name: wheel
         path: dist/
